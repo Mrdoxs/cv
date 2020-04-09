@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <title>Contact details</title>
+<body>
+   <CENter><h1>My-Information</h1></CENter>
+    <ul type="square">
+        <li>NAME:AJAYRAJ</li>
+        <li>About stuides <!-- its nested <ul> tag-->
+            <ul type="circle">
+                <li>three years path school</li>   
+                <li>11th and 12th in bangalore</li>
+                <li>college in chennai
+                    <ol start="A">
+                        <li>CODING IS CRAZY</li>
+                    </ol>
+                </li>
+            </ul>
+        </li>
+        </li>
+    </ul>  
+    <hr>
+    <H3><u>Fill up the details</u></H3>
+    <form action="mailto:info@londonappbrewery.con" method="POST" enctype="text/plain"><!--action performs what to whene submit button is clicked and METHO
+    METHOD defines POST that UPLOAD ALL THE GIVEN DATA FINALLY ENCTYE IS WHAT FORMAT THE DOCUMENT IS(UTF-8)-->
+        <label>YOUR NAME:</label>
+        <input type="text" name="My Name"><br><!--name defines that email address directly so there will be understanding-->
+        <label>ENTER YOUR EMAIL:</label>
+        <Input type="email" name="my email address"><br>
+        <textarea name="message" rows="8" cols="30"></textarea><br>
+        <input TYPE="submit">
+    </form>
+</body>
+</html>
